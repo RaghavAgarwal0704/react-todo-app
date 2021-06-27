@@ -7,9 +7,9 @@ import Main from './Main.js';
 function App() {
   return (
     <>
-    <Header/>
-    <Main/>
-    <Footer/>
+    <Header title="header" bool={false}/>
+    <Main title="main"/>
+    <Footer title="footer"/>
     </>
   );
 }
